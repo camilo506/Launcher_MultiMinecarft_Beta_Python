@@ -24,7 +24,7 @@ TITULO_VENTANA = 'MultiMinecraft_v1.0'
 def get_rutas():
     """Obtiene las rutas del sistema"""
     user_window = os.environ.get("USERNAME", "Usuario")
-    launcher_root = f"C:/Users/{user_window}/AppData/Roaming/.MultiMinecraft"
+    launcher_root = f"C:/Users/{user_window}/AppData/Roaming/.MultiMinecraft_MS"
     
     return {
         'launcher_root': launcher_root,
@@ -131,7 +131,6 @@ COLORES = {
 # Configuración de archivos de recursos
 RECURSOS = {
     'icono_principal': 'Resources/icon2.png',
-    'banner_principal': 'Resources/baner.png',
     'icono_ico': 'icon.ico'
 }
 

@@ -1,0 +1,76 @@
+===========================================
+PASOS PARA CREAR EL INSTALADOR
+MultiMinecraft Launcher
+===========================================
+
+YA ESTÁ LISTO EL EJECUTABLE:
+✅ El ejecutable MultiMinecraft.exe ya está creado en la carpeta "dist"
+✅ Puedes ejecutarlo directamente haciendo doble clic
+✅ Ya funciona sin necesidad de tener Python instalado
+
+===========================================
+PARA CREAR EL INSTALADOR PROFESIONAL:
+===========================================
+
+PASO 1: INSTALAR INNO SETUP
+----------------------------
+1. Ve a esta página: https://jrsoftware.org/isdl.php
+2. Descarga "Inno Setup" (versión 6 o superior)
+3. Instálalo en tu computadora
+4. No necesitas cambiar ninguna configuración, solo instálalo
+
+PASO 2: CREAR EL INSTALADOR
+----------------------------
+1. Abre una terminal en esta carpeta del proyecto
+2. Ejecuta este comando:
+   
+   build_installer.bat
+
+3. Espera a que termine (puede tardar unos minutos)
+4. Cuando termine, tendrás el instalador en: dist\MultiMinecraft_Installer.exe
+
+===========================================
+RESUMEN SIMPLE:
+===========================================
+
+OPCIÓN A - USAR EL EJECUTABLE DIRECTAMENTE:
+-------------------------------------------
+✅ Ya está listo: dist\MultiMinecraft.exe
+✅ Solo haz doble clic y funciona
+✅ Puedes compartirlo con tus amigos así
+
+OPCIÓN B - CREAR INSTALADOR PROFESIONAL:
+-------------------------------------------
+1. Instala Inno Setup (https://jrsoftware.org/isdl.php)
+2. Ejecuta: build_installer.bat
+3. Obtendrás: dist\MultiMinecraft_Installer.exe
+4. Este instalador es más profesional (como el de Minecraft)
+
+===========================================
+¿QUÉ DIFERENCIA HAY?
+===========================================
+
+EJECUTABLE SIMPLE (dist\MultiMinecraft.exe):
+- Ya está listo ✅
+- Solo un archivo .exe
+- Lo ejecutas directamente
+- Funciona perfectamente
+
+INSTALADOR (dist\MultiMinecraft_Installer.exe):
+- Necesitas Inno Setup primero
+- Instala en Program Files
+- Crea accesos directos automáticamente
+- Más profesional
+- Permite desinstalar fácilmente
+
+===========================================
+RECOMENDACIÓN:
+===========================================
+
+Si solo quieres probarlo o compartirlo rápido:
+→ Usa el ejecutable: dist\MultiMinecraft.exe
+
+Si quieres algo más profesional para distribuir:
+→ Crea el instalador siguiendo los pasos de arriba
+
+

@@ -1,0 +1,61 @@
+# Entorno virtual
+venv/
+.venv/
+env/
+ENV/
+.ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.spec
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+logs/
+*.log
+*.log.gz
+
+# Cache
+cache/
+*.cache
+
+# Instancias (opcional - descomenta si no quieres versionar las instancias)
+# instancias/
+
+# Archivos temporales
+*.tmp
+*.temp
+ultima_verificacion.txt
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
